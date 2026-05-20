@@ -85,6 +85,7 @@ This fork designed for production use with a focus on clarity and safety:
    - [🔔 Mention](#-mention)
    - [😁 Reaction](#-reaction)
    - [📌 Pin Message](#-pin-message)
+   - [🔖 Keep Chat](#-keep-chat)
    - [➡️ Forward Message](#%EF%B8%8F-forward-message)
    - [👤 Contact](#-contact)
    - [📍 Location](#-location)
@@ -388,7 +389,7 @@ sock.sendMessage(jid, {
       } // --- Additional metadata for large link preview
    },
    favicon: {
-      url: './path/to/tiny-image.png'
+      url: './path/to/tiny-image.ico'
    }
 })
 ```
@@ -421,8 +422,6 @@ sock.sendMessage(jid, {
       key: message.key,
       text: '✨'
    }
-}, {
-   quoted: message
 })
 ```
 
@@ -432,9 +431,19 @@ sock.sendMessage(jid, {
 sock.sendMessage(jid, {
    pin: message.key,
    time: 86400, // --- Set the value in seconds: 86400 (1d), 604800 (7d), or 2592000 (30d)
-   type: 1 // --- Or 0 to remove
-}, {
-   quoted: message
+   type: 1 // --- Or 2 to remove
+})
+```
+
+#### 🔖 Keep Chat
+
+> [!NOTE]
+> Keep Chat can only be used in chats or groups with disappearing messages enabled.
+
+```javascript
+sock.sendMessage(jid, {
+   keep: message.key,
+   type: 1 // --- Or 2 to remove
 })
 ```
 
