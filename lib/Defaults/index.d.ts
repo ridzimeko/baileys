@@ -91,7 +91,6 @@ export const MEDIA_PATH_MAP: {
     'md-app-state': string;
     'md-msg-hist': string;
     'biz-cover-photo': string;
-    ptv: string;
 };
 export const NEWSLETTER_MEDIA_PATH_MAP: {
     image: string;
