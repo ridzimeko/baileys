@@ -2049,10 +2049,14 @@ This fork is based on [Baileys (GitHub)](https://github.com/WhiskeySockets/Baile
 
 ### 📣 Credits
 
+This fork uses Protocol Buffer definitions maintained by [WPP Connect](https://github.com/wppconnect-team) via [`wa-proto`](https://github.com/wppconnect-team/wa-proto)
+
 Full credit is attributed to the original maintainers and contributors of Baileys:
 - [purpshell](https://github.com/purpshell)
 - [jlucaso1](https://github.com/jlucaso1)
 - [adiwajshing](https://github.com/adiwajshing)
+
+<!-- Please do not replace my name with yours. It's disrespectful. -->
 
 This fork includes additional enhancements and modifications by [Lia Wynn](https://github.com/itsliaaa)
 
