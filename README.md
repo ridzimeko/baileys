@@ -778,10 +778,12 @@ sock.sendMessage(jid, {
 })
 ```
 
+> 💡 Supported Languages: `css`, `html`, `javascript`, `typescript`, `python`, `golang`, `rust`, `c`, `c#`, `c++`, `bash`, `bat`, `powershell`.
+
 #### 🧾 Message with Code Block
 
 > [!NOTE]
-> This feature already includes a built-in tokenizer.
+> This feature already includes a built-in tokenizer with `tokenizeCode`.
 
 ```javascript
 sock.sendMessage(jid, {
