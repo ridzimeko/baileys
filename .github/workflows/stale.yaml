@@ -19,9 +19,9 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-issue-message: 'This issue is stale because it has been open for 3 days with no activity.'
           stale-pr-message: 'This PR is stale because it has been open for 3 days with no activity.'
-          close-issue-message: 'Closing this issue due to inactivity for more than 7 days.'
-          close-pr-message: 'Closing this PR due to inactivity for more than 7 days.'
+          close-issue-message: 'Closing this issue due to inactivity for more than 1 days.'
+          close-pr-message: 'Closing this PR due to inactivity for more than 1 days.'
           stale-issue-label: 'stale'
           stale-pr-label: 'stale'
           days-before-stale: 3
-          days-before-close: 7
+          days-before-close: 1
