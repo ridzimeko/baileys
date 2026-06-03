@@ -36,37 +36,36 @@ This fork designed for production use with a focus on clarity and safety:
 
 > [!IMPORTANT]
 > Hi everyone,
-> 
-> I need to say this clearly.
-> 
-> Some npm packages are reuploading my fork under different names, with almost no meaningful changes:
-> 
+>
+> I want to clarify two separate attribution issues regarding packages derived from this fork.
+>
+> 1. Direct redistribution of my modifications without attribution
+>
+> The following packages are operated by the same individual under multiple npm accounts:
+>
 > - [@nuisockets](https://www.npmjs.com/package/@nuisockets/baileys)
 > - [@nuiisatoru](https://www.npmjs.com/package/@nuiisatoru/baileys)
 > - [@nuiisweetberry](https://www.npmjs.com/package/@nuiisweetberry/baileys)
+> - [@nuiisweety](https://www.npmjs.com/package/@nuiisweety/baileys)
+>
+> These packages redistribute files and modifications originating from this fork while removing contributor credits and modification notes.
+>
+> 2. Rebranded republishes of this fork
+>
 > - [@lumina-md](https://www.npmjs.com/package/@lumina-md/baileys)
 > - [@sairidev](https://www.npmjs.com/package/@sairidev/baileys-new)
 > - [nexora-baileys](https://www.npmjs.com/package/nexora-baileys)
-> 
-> They:
-> 
-> - Renamed my fork under different package names
-> - Removed or ignored proper maintainer credit
-> - Added unnecessary overhead
-> - Rewrote changelogs and modification notes under their own names
-> - Claimed existing work and changes as if they made them
-> - Copied code directly from my fork with little to no meaningful modification
-> 
-> This is not acceptable.
-> 
-> To be clear, I am **NOT** the original maintainer of Baileys. full respect goes to https://github.com/WhiskeySockets/Baileys.
 >
-> **This issue is about attribution, honesty, and respecting open-source contributions.**
->
-> Forking is completely fine. Removing credits and presenting someone else's work as your own is not.
+> These packages primarily repackage or republish this fork under different names while failing to preserve proper attribution, credits, or modification notes.
 > 
+> To be clear, I am **NOT** the original maintainer of Baileys. Full credit and respect belong to:
+>
+> https://github.com/WhiskeySockets/Baileys
+>
+> **Forking is completely acceptable. Removing attribution, contributor credits, or modification history is not.**
+>
 > Please report if necessary.
-> 
+>
 > Thank you. 🤍
 
 > [!NOTE]
