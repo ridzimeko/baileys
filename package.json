@@ -1,6 +1,6 @@
 {
    "name": "@itsliaaa/baileys",
-   "version": "0.3.11",
+   "version": "0.3.17",
    "description": "Enhanced Baileys v7 with fixes for newsletter media uploads, plus support for interactive messages, albums, and additional message types.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
@@ -23,16 +23,13 @@
    "keywords": [
       "automation",
       "baileys",
-      "baileys-fork",
-      "baileys-mod",
+      "bot",
       "interactive-messages",
       "js-whatsapp",
       "multi-device",
       "whatsapp",
       "whatsapp-api",
       "whatsapp-bot",
-      "whatsapp-chat",
-      "whatsapp-group",
       "whatsapp-web"
    ],
    "homepage": "https://github.com/itsliaaa/baileys#readme",
@@ -56,6 +53,7 @@
    "peerDependencies": {
       "@napi-rs/image": "~1.12.0",
       "audio-decode": "^2.2.3",
+      "better-sqlite3": "^11.0.0",
       "jimp": "^1.6.1",
       "link-preview-js": "^3.0.0",
       "sharp": "*"
@@ -65,6 +63,9 @@
          "optional": true
       },
       "audio-decode": {
+         "optional": true
+      },
+      "better-sqlite3": {
          "optional": true
       },
       "jimp": {
